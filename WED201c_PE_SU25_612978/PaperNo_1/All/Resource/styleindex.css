@@ -1,0 +1,171 @@
+.Boder_page {
+  border: 4px solid #99b4c4;
+  margin: 0;
+}
+.footer {
+  background-color: #feeaea;
+  text-align: center;
+  padding: 20px 0;
+  font-size: medium;
+}
+.footer p {
+  padding-bottom: 10px;
+}
+/* ============================================ Header ============================================ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 8vw;
+  height: auto;
+}
+.search {
+  margin-top: 30px;
+}
+.search input {
+  width: 25vw;
+  height: 4vh;
+  border: 1px solid rgb(232, 224, 224);
+}
+.search button {
+  height: 4vh;
+  background-color: #e86c27;
+  color: white;
+  border-style: none;
+}
+/* ======================================================== Menu ================================================ */
+.menu {
+  background-color: #feeaea;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+}
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+/* ======================================================= Content =============================================== */
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nhahang img {
+  width: 60vw;
+  height: 80%;
+}
+.informationn {
+  border: 1px solid rgb(183, 26, 26);
+  width: 50vw;
+  height: 80vh;
+  margin-left: 20px;
+  background-color: #feeaea;
+}
+.informationn h2 {
+  text-align: center;
+}
+.formm {
+  padding-left: 5vw;
+  font-size: large;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.formm input {
+  width: 15vw;
+  height: 30px;
+  margin-right: 7vw;
+}
+.send {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-right: 5vw;
+}
+.send input {
+  width: 8vw;
+  height: 50px;
+  color: white;
+  background-color: #e86c27;
+  border-radius: 45px;
+  font-size: larger;
+  border: none;
+}
+.content {
+  margin-bottom: 0;
+}
+.informationn {
+  margin-bottom: 0;
+}
+.nhahang {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* ======================================= Mon An================================= */
+.monan {
+  margin: 0 20px;
+}
+.monan1 {
+  display: flex;
+  justify-content: space-between;
+}
+.monan2 {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  color: #e86c27;
+}
+.monan_child {
+  display: flex;
+
+  border: 1px solid black;
+  width: 47vw;
+  margin-bottom: 20px;
+}
+.monan_child img {
+  width: 20vw;
+  height: 20vw;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.info button {
+  color: white;
+  border-radius: 45px;
+  background-color: #e86c27;
+  width: 10vw;
+  height: 5vh;
+  margin-top: 20vh;
+  margin-left: 10vw;
+  border: none;
+  font-size: medium;
+}
+.add_card {
+  border: 1px solid black;
+  margin: 20px;
+}
+.add_card h2 {
+  background-color: #feeaea;
+  padding: 10px;
+  margin: 0;
+}
+.add_card h3 {
+  padding-left: 10px;
+}
